@@ -1,0 +1,124 @@
+{
+    "movies": [
+      {
+        "id": "1",
+        "title": "Inception",
+        "summary": "A thief who enters the subconscious of his targets is offered a chance to have his criminal history erased.",
+        "genre": "Sci-Fi, Action",
+        "image": "https://example.com/inception.jpg",
+        "actors": [
+          "Leonardo DiCaprio",
+          "Joseph Gordon-Levitt",
+          "Elliot Page"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "The Shawshank Redemption",
+        "summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "genre": "Drama",
+        "image": "https://example.com/shawshank_redemption.jpg",
+        "actors": [
+          "Tim Robbins",
+          "Morgan Freeman"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Pulp Fiction",
+        "summary": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "genre": "Crime, Drama",
+        "image": "https://example.com/pulp_fiction.jpg",
+        "actors": [
+          "John Travolta",
+          "Uma Thurman",
+          "Samuel L. Jackson"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "The Dark Knight",
+        "summary": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "genre": "Action, Crime, Drama",
+        "image": "https://example.com/dark_knight.jpg",
+        "actors": [
+          "Christian Bale",
+          "Heath Ledger",
+          "Aaron Eckhart"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Forrest Gump",
+        "summary": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+        "genre": "Drama, Romance",
+        "image": "https://example.com/forrest_gump.jpg",
+        "actors": [
+          "Tom Hanks",
+          "Robin Wright",
+          "Gary Sinise"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "The Matrix",
+        "summary": "A computer hacker learns about the true nature of reality and his role in the war against its controllers.",
+        "genre": "Action, Sci-Fi",
+        "image": "https://example.com/matrix.jpg",
+        "actors": [
+          "Keanu Reeves",
+          "Laurence Fishburne",
+          "Carrie-Anne Moss"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "summary": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+        "genre": "Adventure, Drama, Fantasy",
+        "image": "https://example.com/lotr_fellowship.jpg",
+        "actors": [
+          "Elijah Wood",
+          "Ian McKellen",
+          "Viggo Mortensen"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "The Godfather",
+        "summary": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "genre": "Crime, Drama",
+        "image": "https://example.com/godfather.jpg",
+        "actors": [
+          "Marlon Brando",
+          "Al Pacino",
+          "James Caan"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Gladiator",
+        "summary": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+        "genre": "Action, Adventure, Drama",
+        "image": "https://example.com/gladiator.jpg",
+        "actors": [
+          "Russell Crowe",
+          "Joaquin Phoenix",
+          "Connie Nielsen"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Interstellar",
+        "summary": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "genre": "Adventure, Drama, Sci-Fi",
+        "image": "https://example.com/interstellar.jpg",
+        "actors": [
+          "Matthew McConaughey",
+          "Anne Hathaway",
+          "Jessica Chastain"
+        ]
+      }
+    ]
+  }
+  
