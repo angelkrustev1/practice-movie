@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <p class="logo"><a href=""></a></p>
+    <nav class="header">
+        <p>
+            <a class="logo" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M240-360h96q19 0 32.5-13.5T382-406v-148q0-19-13.5-32.5T336-600h-96v240Zm46-46v-148h50v148h-50Zm149 46h98v-46h-82v-52h52v-46h-52v-50h82v-46h-98q-13 0-21.5 8.5T405-570v180q0 13 8.5 21.5T435-360Zm206-1q13 0 22.5-8.5T676-391l56-209h-48l-43 164-43-164h-48l56 209q3 13 12.5 21.5T641-361ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg></a>
+        </p>
         <ul class="nav-ul">
-            <li>Home</li>
-            <li>Top Movies</li>
-            <li>Affiliate</li>
-            <li>Contact us</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Top Movies</a></li>
+            <li><a href="#">Affiliate</a></li>
+            <li><a href="#">Contact us</a></li>
         </ul>
     </nav>
+    
     <header>
-        <h1>Wellcome to Filmy.CC</h1>
+        <h1 class="heading">Wellcome to Filmy.CC</h1>
         <h2>Full Movie For Free</h2>
 
         <form action="">
             <label for="">Search</label>
-            <input type="text">
+            <input type="text" value="Search for a movie">
         </form>
     </header>
     <main>
@@ -29,12 +33,33 @@
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure voluptates corrupti, eos culpa ipsum ipsam dolor voluptatum perspiciatis beatae veniam praesentium repellendus eius quam excepturi rem sapiente neque provident officiis.</p>
         <div class="movies-ul">
             <ul>
-                <li><a href=""></a></li>
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ekE6Hhz9gvIbiFSUPxt-FyAh4zXTXX0bjQ&s" alt="">
+                </li>
+                <li>
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_FMjpg_UX1000_.jpg" alt="">
+                </li>
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WlCk7lPrudbQJWN9HHKHqPHGw29Rdsm37Q&s" alt="">
+                </li>
+                <li>
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTYzNDE3OTQ3MF5BMl5BanBnXkFtZTgwODczMTg4MjE@._V1_.jpg" alt="">
+                </li>
+                <li>
+                    <img src="https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg" alt="">
+                </li>
+                <li>
+                    <img src="https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg" alt="">
+                </li>
+                <li>
+                    <img src="https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="">
+                </li>
+                <li>
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTczMTgxMjc4NF5BMl5BanBnXkFtZTcwNjM5MTA2OA@@._V1_QL75_UX190_CR0,0,190,281_.jpg" alt="">
+                </li>
             </ul>
         </div>
-    </main>
-    <footer>
-        <div>
+        <div class="name">
             <div class="footer-block">
                 <p>Filmy.CC</p>
                 <ul>
@@ -62,10 +87,10 @@
                 </ul>
             </div>
         </div>
-        <div>
+    </main>
+    <footer>
             <p class="footer-p">Copyright 2015 Filmy.CC All Right Reversed</p>
             <p class="footer-p">privacy and terms</p>
-        </div>
     </footer>
 </body>
 </html>
