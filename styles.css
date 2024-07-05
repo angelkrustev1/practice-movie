@@ -5,6 +5,10 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+html, body {
+    height: 100%;
+}
+
 .pic-bg {
     background: yellow;
 }
@@ -15,6 +19,14 @@ nav.header {
     justify-content: space-between; 
     padding: 1em 7.5em 1em 7.5em;
     background: #00102B;
+}
+
+.border {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
 }
 
 .nav-ul {
@@ -96,10 +108,6 @@ label:hover {
     color: cyan;
 }
 
-main {
-    padding: 3em 7.5em 3em 7.5em;
-}
-
 main h3 {
     font-size: 2.8em;
     text-align: center;
@@ -107,41 +115,79 @@ main h3 {
 }
 
 main p {
+    text-align: center;
     font-size: 1.4em;
     border-bottom: 1px solid #ddd;
     text-align: center;
-    padding: 1em 7.5em;
+    padding: 1em 3em;
 }
 
-.movies-ul ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    gap: 0.7em;
-    max-width: 1200x;
-}
-
-.movies-ul ul li {
-    flex: 1 0 20%; 
-}
-
-.movies-ul ul li img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-footer {
+main {
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.movies-ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5em;
+}
+
+.movies-ul li {
+    width: 200px;
+    list-style: none;
+}
+
+.end-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 1em 10em 1em 10em;
+    background: #274a88;
+}
+
+.footer-block {
+    color: white;
+}
+
+.footer-block > p {
+    font-weight: bold;
+    color: yellow;
+    padding: 1em 0em;
+}
+
+.footer-block ul {
+    list-style: none;
+}
+
+.footer-block ul li {
+    padding: 0.5em 0em;
+}
+
+.yellow {
+    font-weight: bold;
+    color:
 }
 
 .last {
-    background-color: #00102B;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-between; 
+    padding: 1em 7.5em 1em 7.5em;
+    background: #00102B;
+}
+
+.last p {
+    color: #fff;
+    font-weight: bold;
 }
