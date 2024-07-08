@@ -42,6 +42,7 @@ nav.header {
     text-decoration: none;
     font-size: 1.5em;
     color: #fff;
+    font-weight: 300;
 }
 
 .logo > svg{
@@ -93,6 +94,7 @@ form {
 input {
     width: 350px;
     border-radius: 1.2em;
+    font-size: 25px;
 }
 
 label {
@@ -191,4 +193,26 @@ img {
 .last p {
     color: #fff;
     font-weight: bold;
+}
+
+.hide-class {
+    padding: 25px;
+    background-color: #EF930F;
+    border-radius: 15px;
+    border: 1 px solid #EF930F;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+.hide-class:hover {
+    color: cyan;
+}
+
+.show {
+    display: flex;
 }
