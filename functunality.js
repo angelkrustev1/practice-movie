@@ -10,7 +10,7 @@ function solve() {
     let deleteButtonElement = document.getElementById('delete-button')
 
     hideButtonElement.addEventListener('click', () => {
-        if (!moviesUlElement.classList.contains('hide')) {
+        if (!moviesUlElement.classList.contains('hide') && isLoaded) {
             moviesUlElement.classList.add('hide')
             hideButtonElement.textContent = 'Show'
         }
@@ -42,6 +42,11 @@ function solve() {
 
     deleteButtonElement.addEventListener('click', () => {
         moviesUlElement.innerHTML = ''
+        hideButtonElement.textContent = 'Hide'
         isLoaded = false;
+
+        if (moviesUlElement.classList.contains('hide')) {
+            moviesUlElement.classList.remove('hide')
+        }  
     })
   }
